@@ -132,7 +132,7 @@ section{
   .img-box {
     border-radius: 10px;
     overflow: hidden;
-   margin: 0 auto;
+   margin: 20px auto 0px auto;
 
     @media (max-width:992px) {
         max-width: 300px;
