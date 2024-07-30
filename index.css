@@ -47,10 +47,12 @@ h1, h2{
     font-size: 29px;
     line-height: 31px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 table {
    max-width: 100%;
+   margin-top: 20px;
 
    @media screen and (min-width: 768px) {
     width: 100%;
@@ -74,7 +76,7 @@ th, td {
 
 section{
     padding: 0 16px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
   
     @media screen and (min-width: 768px) {
             max-width: 720px;
@@ -347,6 +349,7 @@ section{
     font-size: 19px;
     margin: 0 auto;
     border: none;
+    margin-top: 20px;
 }
 
 .hero-list {
@@ -480,7 +483,6 @@ section{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
 }
 
 .questions-content-box {
