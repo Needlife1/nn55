@@ -656,6 +656,8 @@ display: none;
             align-items: flex-end;
             gap: 5px;
     }
+
+   
 }
 
 .info-img-box {
@@ -664,12 +666,16 @@ display: none;
     border-radius: 10px;
     border: 3px solid transparent;
     overflow: hidden;
+
+   &:hover{
+    border: 3px solid var(--theme-mine-icon-color);
+   }
 }
 
 @media (min-width: 992px) {
     .info-img-box {
         justify-content: flex-end;
-        transition: all 0.3s ease-in-out;
+        transition: border 0.3s ease-in-out;
     }
     
     .info-img-box:nth-of-type(1) {
